@@ -7,11 +7,11 @@
 .page-1 {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 1rem; */
 }
-/* 
 .header{
-    display: grid;
-} */
+    height: 35vh;
+}
 li,
 a {
   text-decoration: none;
@@ -24,37 +24,40 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 5.6rem;
+  height: 55%;
+  /* margin-bottom: 5%; */
 }
 
 .navbar-1-container {
   background-color: #131921;
   display: flex;
-  height: 3.125rem;
-  /* height: 3.275rem; */
+  height: 3.35rem;
+  /* margin-bottom: 2px; */
 }
 
 .navbar-1-container-left {
-  height: 100%;
+  /* height: 100%; */
+  width: 15%;
   display: flex;
+  justify-content: space-between;
+
+  /* border: 1px solid gold; */
+  /* padding: 5%; */
+  /* margin-bottom: 10px; */
+  /* padding-bottom: 5%; */
 }
 
 .amazon-logo-container {
-  border: 1px solid transparent;
-  height: 100%;
-  /* border-radius: 2px; */
-  padding: 1.1rem;
-}
-.amazon-logo {
-  background: url(/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png)
-    no-repeat -10px -51px;
-  width: 96px;
-  height: 29px;
+  border: 1px solid pink;
+  padding: 5%;
+  margin: 5px 7px;
 }
 
-/* .amazon-logo-container:hover{
-    border: 1px solid white;
-} */
+.amazon-logo {
+    background: url('/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -90px;
+	width: 76px;
+	height: 23px;
+}
 
 .delivar-to {
   font-size: 12px;
@@ -70,10 +73,10 @@ a {
 
 .navbar-2-container {
   display: flex;
-  height: 2.45rem;
+  height: 2.25rem;
   background-color: #1d2632;
   justify-content: space-between;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   align-items: center;
 }
 
@@ -82,16 +85,27 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.navbar-2-container-left li{
+    margin-left:15px;
+}
+
 .navbar-2-container-right {
   border: 2px solid blue;
 }
 
+.navbar-3-container {
+  width: 36rem;
+  height: 2.425rem;
+  margin: auto;
+}
+
 .black-friday {
-  height: 2.2rem;
-  display: flex;
-  justify-content: center;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/November/BlackFridayILM/Fuji_BF_ILM_1X._CB652848759_.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 100%;
 }
 
 .black-friday img {
-  height: 100%;
 }
