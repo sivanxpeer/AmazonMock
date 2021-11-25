@@ -12,86 +12,86 @@
 .header{
     display: grid;
 } */
-li,a {
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    font-size: 14px;
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 14px;
 }
 
-.navbar{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 5.6rem;
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 5.6rem;
 }
 
-.navbar-1-container{
-    background-color: #131921;
-    display: flex;
-    height: 3.125rem;
-    /* height: 3.275rem; */
+.navbar-1-container {
+  background-color: #131921;
+  display: flex;
+  height: 3.125rem;
+  /* height: 3.275rem; */
 }
 
-.navbar-1-container-left{
-    height: 100%;
-    display: flex;
+.navbar-1-container-left {
+  height: 100%;
+  display: flex;
 }
 
-
-.amazon-logo-container{
-    border: 1px solid transparent;
-    height: 100%;
-    /* border-radius: 2px; */
-    padding: 1.1rem;
+.amazon-logo-container {
+  border: 1px solid transparent;
+  height: 100%;
+  /* border-radius: 2px; */
+  padding: 1.1rem;
 }
-.amazon-logo{
-    background: url(/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) no-repeat -10px -51px;
-    width: 96px;
-    height: 29px;
+.amazon-logo {
+  background: url(/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png)
+    no-repeat -10px -51px;
+  width: 96px;
+  height: 29px;
 }
 
 /* .amazon-logo-container:hover{
     border: 1px solid white;
 } */
 
-.delivar-to{
-    font-size: 12px;
-    color: white;
-    
+.delivar-to {
+  font-size: 12px;
+  color: white;
 }
 
-.location-icon-container{
-    background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -71px -379px;
-	width: 15px;
-	height: 17px;
+.location-icon-container {
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+    no-repeat -71px -379px;
+  width: 15px;
+  height: 17px;
 }
 
-.navbar-2-container{
-    display: flex;
-    height: 2.45rem;
-    background-color: #1D2632;
-    justify-content: space-between;
-    border: 2px solid red;
+.navbar-2-container {
+  display: flex;
+  height: 2.45rem;
+  background-color: #1d2632;
+  justify-content: space-between;
+  border: 2px solid red;
+  align-items: center;
 }
 
-.navbar-2-container-left{
-    border: 2px solid green;
-    text-align: center;
-
+.navbar-2-container-left {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
 }
-.navbar-2-container-right{
-    
-    border: 2px solid blue;
-    
+.navbar-2-container-right {
+  border: 2px solid blue;
 }
 
-.black-friday{
-    height: 2.2rem;
-    display: flex;
-    justify-content: center;
+.black-friday {
+  height: 2.2rem;
+  display: flex;
+  justify-content: center;
 }
 
-.black-friday img{
-    height: 100%;
+.black-friday img {
+  height: 100%;
 }
