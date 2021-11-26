@@ -65,7 +65,7 @@ h4 {
 }
 
 .navbar-1-container-left {
-  width: 190px;
+  width: 25%;
   display: flex;
   border: 1px solid forestgreen;
   justify-content: space-between;
@@ -130,48 +130,50 @@ h4 {
 
 .navbar-1-container-middle {
   /* border: 1px solid white; */
-  width: 700px;
+  width: 70%;
   height: 80%;
   margin: auto;
+  margin-left: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   border: rgba(235, 154, 3, 0.938) 3px solid;
   border-radius: 5px;
 }
 
 .search-text {
-  border: none;
-  width: 85%;
-
-  margin: 0 auto;
-  /* border: none; */
-  background-color: #f1f1f1;
-}
-/* .search-text-bar {
-  background: #cccccc;
   width: 100%;
-  height: 100%;
+  margin: 0 auto;
+  background-color: #f1f1f1;
   border: none;
+  font-family: "Amazon Ember light";
+  font-size: 14px;
+}
+
+/* 
+.search-text:{
 } */
+
 .search-button {
   height: 100%;
-  width: 10%;
+  width: 7%;
   text-align: center;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(253, 198, 97, 0.938);
 }
 
 .search-button-icon {
   border: none;
-  border-bottom-right-radius: 7px;
-  border-top-right-radius: 7px;
-  background: rgba(253, 198, 97, 0.938)
-    url(/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -10px -290px;
-  border: none;
-  width: 100%;
-  height: 100%;
+  /* border-bottom-right-radius: 5px; */
+  /* border-top-right-radius: 5px; */
+  background: url(/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -10px -290px;
+  /* border: none; */
+  width: 70%;
+  height: 70%;
+  margin-left: 5px;
+  /* border-bottom-left-radius: 5px; */
 }
 
 .navbar-1-container-right {
@@ -360,7 +362,6 @@ h4 {
 .navbar-2-container-right li a {
   font-family: "Amazon Ember bold";
   font-size: 13px;
-
 }
 
 .navbar-3-container {
