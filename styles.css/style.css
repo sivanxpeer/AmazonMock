@@ -4,27 +4,46 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Amazon Ember bold";
+  src: url("/assets/fonts/AmazonEmberDisplay_Bd.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Amazon Ember light";
+  src: url("/assets/fonts/AmazonEmberDisplay_Lt.ttf");
+  font-weight: 400;
+}
+
 .page-1 {
   height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Amazon Ember bold", Arial, Helvetica, sans-serif;
   /* font-size: 1rem; */
 }
+
 .header {
   height: 35vh;
 }
 
-
-li{
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    font-size: 11px;
+li {
+  font-family: "Amazon Ember light", Arial, sans-serif;
+  /* font-weight: bold; */
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 li a {
   text-decoration: none;
   list-style: none;
   color: white;
-  font-size: 14px;
+  font-family: "Amazon Ember light", Arial, sans-serif;
+}
+h3 {
+  font-family: "Amazon Ember bold", Arial, sans-serif;
+}
+h4 {
+  font-family: "Amazon Ember light", Arial, sans-serif;
 }
 
 .navbar {
@@ -49,7 +68,7 @@ li a {
 
 .navbar-1-container-left {
   /* height: 100%; */
-  width: 15vw;
+  width: 200px;
   display: flex;
   border: 1px solid forestgreen;
   justify-content: space-between;
@@ -62,7 +81,9 @@ li a {
 
 .amazon-logo-container {
   /* border: 1px solid pink; */
-  width: 50%;
+  /* width: 50%; */
+  width: 86px;
+
   padding: 5%;
   margin: 5px 7px;
 }
@@ -100,6 +121,7 @@ li a {
 }
 
 .content {
+  color: #cccccc;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -109,10 +131,43 @@ li a {
 .location-icon-container {
   background: url("https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
     no-repeat -71px -379px;
+  color: white;
   width: 15px;
   padding: 5px 5px;
   height: 17px;
   margin-right: 4px;
+}
+
+.navbar-1-container-middle {
+  border: 1px solid white;
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: auto; */
+  /* margin: 4px 0; */
+  border: olive 2px solid;
+}
+.search-text {
+  width: 10%;
+}
+.search-text-bar {
+  background: #cccccc;
+  width: 100%;
+  height: 100%;
+}
+.search-button {
+  height: 100%;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search-button-icon {
+  background: rgba(253, 198, 97, 0.938)
+    url(/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png) -10px -290px;
+  border: none;
+  width: 100%;
+  height: 100%;
 }
 
 .navbar-1-container-right {
@@ -136,40 +191,37 @@ li a {
   margin: auto;
 }
 
-.item-2{
-    display: flex;
-    width: 20rem;
-    height: 100%;
-    padding: 5%;
+.item-2 {
+  display: flex;
+  width: 20rem;
+  height: 100%;
+  padding: 5%;
 }
 
 .item-2 .content {
-  width:100%;
+  width: 100%;
   height: 100%;
 }
 
-.item-3{
-    /* display: flex; */
-    width: 30%;
-    height: 100%;
-    /* padding: 5%; */
-
-}
+/* .item-3 {
+  width: 30%;
+  height: 100%;
+} */
 .item-4 {
-    /* padding: 5%; */
-    /* border: orange 1px solid; */
-    display: flex;
-    /* justify-content: space-evenly; */
-    /* flex-direction: ; */
-    background: url("/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
+  /* padding: 5%; */
+  /* border: orange 1px solid; */
+  display: flex;
+  /* justify-content: space-evenly; */
+  /* flex-direction: ; */
+  background: url("/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
     no-repeat -218px -337px;
-    width: 20rem;
-    height: 100%;
+  width: 20rem;
+  height: 100%;
 }
 
-.item-4-logo-container{
-    /* width: 100%; */
-    /* height: 100%; */
+.item-4-logo-container {
+  /* width: 100%; */
+  /* height: 100%; */
 }
 
 .drop-dwon {
@@ -212,11 +264,11 @@ li a {
   line-height: 0.1rem;
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 180px;
   justify-content: space-evenly;
-  vertical-align: middle;
+  /* vertical-align: bottom; */
   /* border: tomato 1px solid; */
-  margin-right: 15px;
+  /* margin-right: 15px; */
   padding: 2%;
 }
 
@@ -227,20 +279,48 @@ li a {
   justify-content: space-between;
   /* border: 2px solid red; */
   align-items: center;
+  /* vertical-align: middle; */
+  /* padding: 2%; */
+}
+
+.navbar-2-container li a {
+  font-family: "Amazon Ember light";
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  font-style: normal;
+  justify-content: center;
+  vertical-align: middle;
+  border: 2px solid goldenrod;
+  padding: 4px;
+  font-size: 12px;
 }
 
 .navbar-2-container-left {
   border: 2px solid green;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  height: 2.25rem;
+  /* margin-top:5px; */
+  margin-left: 5px;
 }
 
-.navbar-2-container-left li {
+.navbar-2-container-left li a {
   margin-left: 15px;
+  padding: 7px 5px;
 }
 
 .navbar-2-container-right {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  font-family: "Amazon Ember bold";
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 8px 5px;
+}
+.navbar-2-container-right li a {
+  /* border: 2px solid blue; */
+  font-family: "Amazon Ember bold";
+  /* font-weight: bolder; */
 }
 
 .navbar-3-container {
@@ -249,11 +329,17 @@ li a {
   /* margin: auto; */
 }
 
-.black-friday {
+.navbar-3-container {
+  /* width: 200px; */
+  /* height: 10rem; */
   background: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/November/BlackFridayILM/Fuji_BF_ILM_1X._CB652848759_.jpg")
     no-repeat center center/cover;
-  width: 100%;
-  height: 100%;
+  /* display: flex; */
+  margin: -1.5rem auto;
+}
+
+.black-friday {
+  /* justify-content: center; */
 }
 
 .black-friday img {
