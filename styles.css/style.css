@@ -22,7 +22,7 @@
 }
 
 .header {
-  height: 35vh;
+  height: 40vh;
 }
 
 li {
@@ -311,10 +311,32 @@ border-top-right-radius: 7px;
 .navbar-3-container {
   width: 36rem;
   height: 2.425rem;
+  margin: -2.48rem auto;
+  background: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/November/BlackFridayILM/Fuji_BF_ILM_1X._CB652848759_.jpg")
+    no-repeat center center/cover;
 }
 
 .navbar-3-container {
-  background: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/November/BlackFridayILM/Fuji_BF_ILM_1X._CB652848759_.jpg")
-    no-repeat center center/cover;
-  margin: -1.5rem auto;
+}
+
+
+.navbar-4{
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content:center; */
+  border: 1px solid black;
+  align-content: center;
+  height: 30px;
+  margin-top: 2.4rem;
+}
+
+.navbar-4-ul{
+  display: flex;
+  padding: 1%;
+}
+
+.navbar-4-ul li{
+  font-size: 10px;
+  font-weight: 600;
+  color: #3f3f3f;
 }
