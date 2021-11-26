@@ -163,6 +163,8 @@ h4 {
   text-align: center;
   cursor: pointer;
   display: flex;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   justify-content: center;
   align-items: center;
   background-color: #F3A847;
@@ -405,7 +407,7 @@ h4 {
   justify-content: flex-start;
   margin-top: -4.3rem;
   /* height: 71.5vh; */
-  height: 75vh;
+  height: 100vh;
   border: 2px solid red;
 }
 
@@ -430,7 +432,11 @@ align-content: center;
   border: 0.2px solid blue;
 }
 .middle-section{
-  width:50vw;
+  border: 0.2px solid blueviolet;
+  display: flex;
+  font-family: "Amazon Ember light";
+  font-size: 14pxx;
+  /* width:; */
 }
 
 .game-box-container{
@@ -438,4 +444,97 @@ align-content: center;
   border: 1px solid pink;
   width: 100%;
   height: 100%;
+}
+
+.right-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.share-icons{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+  /* align-content: center; */
+  /* vertical-align: middle; */
+}
+
+.icons{
+  display: flex;
+}
+.icon-1{
+	background: url("/assets/images/social-media.png") no-repeat -256px -221px;
+	width: 19px;
+	height: 15px;
+}
+
+.icon-2{
+  background: url("/assets/images/social-media.png");
+  width: 17px;
+  height: 17px;
+  background-position: -237px -151px;
+}
+
+.icon-3{
+  background: url("/assets/images/social-media.png");
+  width: 18px;
+  height: 17px;
+  background-position: -193px -105px;
+}
+
+.icon-4{
+  background: url("/assets/images/social-media.png");
+  width: 17px;
+  height: 17px;
+  background-position: -138px -14px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  border: 1px solid red;
+  width:100%;
+  height: 100%;
+  margin: auto;
+  /* align-items: center; */
+}
+
+.shipping{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  /* align-content: space-between; */
+  border: 1px solid blue;
+  
+}
+.card h3{
+  font-family: "Amazon Ember light";
+  font-size: 12px;
+}
+
+.card .israel, .card .date{
+  font-family: "Amazon Ember bold";
+  font-size: 12px;
+
+}
+.card-deliver-to{
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  /* text-align: center; */
+}
+
+.card-deliver-to h5{
+  font-size: 11px;
+  font-family:"Amazon Ember light" ;
+  border: 1px solid brown;
+  height: 100%;
+  display: flex;
+}
+
+.card-deliver-to-location-icon{
+  border: 1px solid brown;
 }
