@@ -196,7 +196,6 @@ h4 {
   display: flex;
   justify-content: center;
   margin-right: auto;
-
   border: #febd69 1px solid;
   /* border: burlywood 1px solid; */
 }
@@ -222,19 +221,35 @@ h4 {
   height: 100%;
 }
 
-.item-4 {
-  display: flex;
+.cart{
+  /* display: flex; */
   background: url("/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
     no-repeat -218px -337px;
-  width: 20rem;
-  height: 100%;
+  width: 60%;
+  justify-content: center;
+  /* align-items: flex-end; */
 }
 
 .item-4-logo-container {
+  margin-top: 20px;
+  /* position: relative; */
+  /* top:30px; */
+  /* top:10px; */
   /* width: 100%; */
   /* height: 100%; */
+  /* display: flex; */
+
+  /* justify-self: center; */
+  /* align-self: center; */
+  /* align-content: center; */
+  /* vertical-align: bottom; */
+  /* margin: auto; */
 }
 
+.content-4{
+  display: flex;
+  align-content: center;
+}
 .countries {
   background: url("/assets/images/rzrQQdi0aRm6Dap.png") no-repeat 0px -130px;
   width: 25px;
@@ -508,13 +523,22 @@ h4 {
   line-height: 20px;
   font-size: 12px;
   font-weight: 600;
-
 }
+  .small-green-link-font-1{
+  color:
+  #007185;
+  font-family: "Amazon Ember light";
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
 .visit:hover{
   text-decoration: underline;
   color: #c7511f;
 }
-.small-green-link-font:hover{
+.small-green-link-font:hover,.small-green-link-font-1:hover{
   color: #c7511f;
 }
 
@@ -537,18 +561,34 @@ h4 {
 }
 
 
+.platform-text{
+  position:absolute;
+}
+.arrow-down-icon-1 {
+  background-image: url("/assets/images/arrows.png");
+  margin: 5px 0 0 0.385em;
+  width: 10px;
+  height: 8px;
+  background-position: -90px -5px;
+  opacity: .6;
+  /* position: absolute; */
+  display: flex;
+  /* left:10px; */
+  vertical-align: text-top;
 
-.arrow-down-icon .arrow-down-1 {
 }
 
 .arrow-down-icon {
-  border: gray 1px solid;
-  display: flex;
+  /* border: gray 1px solid; */
+  position: absolute;
+  /* display: flex; */
+  /* flex-directio; */
   background-image: url("/assets/images/arrows.png");
   margin: 5px 0 0 0.385em;
   vertical-align: text-top;
-  width: 9px;
-  height: 7px;
+  width: 10px;
+  height: 8px;
+  align-self: flex-end;
   background-position: -90px -5px;
   opacity: .6;
 }
@@ -649,6 +689,10 @@ line-height: 20px;
   border-bottom: rgb(216, 215, 215) 0.4px solid;
   margin: 5px 5px 0 0;
 }
+.underline-2{
+  border-bottom: rgb(216, 215, 215) 0.4px solid;
+  margin: 13px 5px 0 0;
+}
 
 .buttons{
   width:41%;
@@ -686,7 +730,7 @@ border-radius: 3%;
   list-style: disc;
 }
 
-.button1{}
+
 .button2{}
 .button3{}
 .button4{}
@@ -768,7 +812,7 @@ border-radius: 3%;
 .card {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
+  justify-content: space-around;
   border: 1px solid red;
   width: 90%;
   height: 100%;
@@ -816,10 +860,71 @@ border-radius: 3%;
 
 .quan {
   font-size: 10px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  width:60px;
+  font-family: "Amazon Ember light";
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 8px;
+  border:rgb(216, 215, 215) 0.4px solid;
 }
 
 .arrow-down {
 
+}
+
+.buttons-buy{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Amazon Ember light";
+  color: #0f1111;
+  align-content: center;
+}
+
+.btn1{
+  width:200px;
+  margin: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px;
+  border:none;
+  border-radius: 12px;
+  background-color: #FFC720;
+}
+.btn2{
+  margin: 5px;
+  width:200px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px;
+  border:none;
+  border-radius: 12px;
+  background-color: #FF8F35;
+}
+
+.btn1:hover{
+  background-color: #fac012;
+}
+
+.btn2:hover{
+  background-color: #ee8632;
+}
+
+
+.secure-sec{
+  margin-top: 5px;
+  display: flex;
+  /* justify-content: space-around; */
+}
+.secure-logo{
+  width: 8px;
+  /* height: 5px; */
+}
+
+.secure-text{
+align-self: center;
+margin-left: 20px;
 }
 
 .links-to-buy{
@@ -833,4 +938,13 @@ border-radius: 3%;
   /* list-style: ; */
   /* margin-bottom: 7px; */
   vertical-align: text-bottom;
+}
+
+.btn3{
+  /* padding: 10px; */
+  width: 90%;
+  margin: 12px auto;
+  text-align: start;
+  padding: 5px;
+  /* font-family: "Amazon Ember light"; */
 }
