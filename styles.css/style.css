@@ -528,6 +528,7 @@ h4 {
 }
 
 
+
 .arrow-down-icon .arrow-down-1 {
 }
 
@@ -583,9 +584,7 @@ line-height: 20px;
 .new-used{
   font-weight: 600;
 }
-.game-info li p .with-bullets{
-  list-style: disc;
-}
+
 .crossed{
   text-decoration: line-through;
 }
@@ -635,17 +634,18 @@ line-height: 20px;
   justify-content: space-between;
 }
 .ps-5{
-  text-align: center;
+  text-align: start;
   border: 1px solid red;
   background-color: #ffdcae36 ;
-  width: 115px;
-  padding: 5px;
+  width: 112px;
+  padding: 10px;
+border-radius: 3%;
 }
 .ps-4{
-  text-align: center;
-  border: 1px solid blue;
-  padding: 5px;
-  width: 115px;
+  border-radius: 3%;
+  text-align: start;
+  padding: 10px;
+  width: 112px;
 }
 .bigger-button{
   text-align: start;
@@ -655,6 +655,20 @@ line-height: 20px;
 .dashed-border{
  border: 1px gray dashed; 
 }
+
+.grey-border{
+  border: gray 1px solid;
+}
+
+.with-bullets{
+  list-style: disc;
+}
+
+.button1{}
+.button2{}
+.button3{}
+.button4{}
+
 /* card section - right side  */
 .right-section {
   display: flex;
