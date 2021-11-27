@@ -220,7 +220,16 @@ h4 {
   width: 100%;
   height: 100%;
 }
+.item-2 .content h4{
+color: white;
+font-weight: 600;
+}
 
+.bold-white{
+  /* font-family: "Amazon Ember light"; */
+  font-weight: bolder;
+
+}
 .cart{
   /* display: flex; */
   background: url("/assets/images/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")
@@ -254,12 +263,9 @@ h4 {
   background: url("/assets/images/rzrQQdi0aRm6Dap.png") no-repeat 0px -130px;
   width: 25px;
   height: 19px;
-  margin-top: 2px;
-  padding: 1%;
+  transform: scale(0.9);
   margin-left: 15px;
-  /* display: flex; */
-  /* align-self: flex-end; */
-  /* vertical-align: bottom; */
+  padding: 6px;
 }
 
 .navbar-1-container-right .item-2 {
@@ -267,11 +273,11 @@ h4 {
   padding: 7px;
 }
 
-.item h4 {
+/* .item h4 {
   font-weight: lighter;
-}
+} */
 
-.drop-down-arrow {
+.drop-down-arrow-1{
   background: url("/assets/images/rzrQQdi0aRm6Dap.png") no-repeat -82px -87px;
   width: 8px;
   height: 5px;
@@ -281,6 +287,22 @@ h4 {
   align-self: flex-end;
   margin-left: 2px;
   margin-bottom: 2px;
+  position: relative;
+  top:10px;
+}
+.drop-down-arrow{
+  background: url("/assets/images/rzrQQdi0aRm6Dap.png") no-repeat -82px -87px;
+  width: 8px;
+  height: 5px;
+  /* width: 8px; */
+  /* height: 5px; */
+  display: flex;
+  align-self: flex-end;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  position: relative;
+  right:17px;
+  /* top:10px; */
 }
 .content {
   display: flex;
@@ -293,7 +315,9 @@ h4 {
   flex-direction: column;
   width: 180px;
   justify-content: space-evenly;
-  padding: 2%;
+  align-items: flex-start;
+  padding: 5px 7px;
+  align-content: space-around;
 }
 
 .navbar-2-container {
@@ -417,7 +441,6 @@ h4 {
   display: flex;
   /* flex-direction: column; */
   /* justify-content:center; */
-  border: 1px solid black;
   align-content: center;
   /* height: 20px; */
   margin-top: 2.4rem;
@@ -471,13 +494,12 @@ h4 {
   margin-bottom: 6px;
 }
 .middle-section {
-  border: 0.2px solid blueviolet;
   display: flex;
   /* width: 80%; */
   /* justify-content: flex-start; */
   font-family: "Amazon Ember light";
   font-size: 14px;
-  /* position: relative; */
+  position: relative;
 }
 
 .game-box-container {
@@ -486,12 +508,12 @@ h4 {
   width: 100%;
   z-index: -2;
   height: 100%;
-  margin-top: -189px;
+  margin-top: -176px;
   margin-left: -9.5rem;
   transform: scale(0.87);
   display: flex;
   align-content: flex-start;
-  /* position: sticky; */
+  position: sticky;
 }
 
 .middle-section-text-container {
@@ -540,8 +562,6 @@ h4 {
   font-weight: 600;
 }
   
-
-
 .visit:hover{
   text-decoration: underline;
   color: #c7511f;
@@ -788,10 +808,10 @@ position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 25%;
+  width: 28%;
   height: 100%;
   /* margin-top: 3rem; */
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .share-icons {
@@ -807,6 +827,7 @@ position: absolute;
   vertical-align: middle;
   align-content: center;
   align-self: center;
+  margin-bottom: 3px;
 }
 
 .share-icons h4:hover {
@@ -821,6 +842,7 @@ position: absolute;
 }
 
 .icons {
+  align-self: center;
   display: flex;
   /* border: 1px solid green; */
   /* justify-content: space-between; */
@@ -865,11 +887,12 @@ position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid red;
+  border: 0.3px solid #adb4b4;
   /* width: 90%; */
+  border-radius: 10px;
   height: 60%;
   margin: 0 auto;
-  padding: 5%;
+  padding: 20px;
   /* align-items: center; */
 }
 
@@ -878,12 +901,12 @@ position: absolute;
   justify-content: space-between;
 }
 .shipping {
+  align-self: flex-start;
   display: flex;
   flex-direction: column;
   /* justify-content: ; */
   line-height: 20px;
   /* align-content: space-between; */
-  border: 1px solid blue;
 }
 
 .card h3 {
@@ -897,7 +920,7 @@ position: absolute;
   font-size: 13px;
 }
 .card-deliver-to {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   margin-top: 10px;
   padding: 10px 0;
@@ -912,6 +935,7 @@ position: absolute;
   border: 1px solid brown;
   height: 100%;
   display: flex;
+  justify-content: space-around;
 }
 
 .card-deliver-to-location-icon {
@@ -923,15 +947,14 @@ position: absolute;
 }
 
 .quan {
-  margin-top: 3px;
-  font-size: 10px;
-  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
-  width:60px;
+  margin-top: -5px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 70%);
+  width:59px;
   font-family: "Amazon Ember light";
   font-size: 10px;
   font-weight: 600;
-  border-radius: 8px;
-  padding: 3.5px;
+  border-radius: 7px;
+  padding: 3px;
   /* border:rgb(216, 215, 215) 0.4px solid; */
   border: 0.9px solid rgb(162, 166, 172);
 }
@@ -956,28 +979,22 @@ position: absolute;
 }
 
 .buttons-buy{
-  /* margin-right: 10px; */
   width: 100%;
-  /* margin-top: 10px; */
-  border: 1px solid black;
   margin: 10px auto;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
-  /* align-content: space-between; */
   font-family: "Amazon Ember light";
   color: #0f1111;
-  /* align-content: center; */
 }
 
 .btn1{
-  /* width:200px; */
   margin: 5px;
   font-size: 11px;
   font-weight: 600;
-  padding: 8px;
+  padding: 7px;
   border:none;
   border-radius: 12px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
   background-color: #FFC720;
 }
 .btn2{
@@ -985,8 +1002,9 @@ position: absolute;
   /* width:200px; */
   font-size: 11px;
   font-weight: 600;
-  padding: 8px;
+  padding: 7px;
   border:none;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
   border-radius: 12px;
   background-color: #FF8F35;
 }
@@ -1024,7 +1042,12 @@ margin-left: 20px;
 .links-to-buy li{
   vertical-align: text-bottom;
 }
-
+.link{
+margin-top: 6px;
+}
+.move-down{
+  margin-top: 15px;
+}
 .btn3{
   /* padding: 10px; */
   width: 90%;
