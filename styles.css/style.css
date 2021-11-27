@@ -420,8 +420,8 @@ h4 {
   justify-content: space-between;
   margin-top: -4.3rem;
   /* height: 71.5vh; */
-  height: 100vh;
-  border: 2px solid red;
+  height: 100%;
+  /* border: 2px solid red; */
 }
 
 .left-section {
@@ -456,10 +456,11 @@ h4 {
 .middle-section {
   border: 0.2px solid blueviolet;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  /* justify-content: space-around; */
   font-family: "Amazon Ember light";
   font-size: 14px;
-  width: 100%;
+  /* width: 100%; */
   /* margin-top: 10px; */
 }
 
@@ -469,11 +470,13 @@ h4 {
   width: 100%;
   z-index: -2;
   height: 100%;
-  margin-top: -87px;
+  margin-top: -180px;
   margin-left: -9.5rem;
   transform: scale(0.87);
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  /* align-self: flex-start; */
+  align-content: flex-start;
 }
 
 .middle-section-text-container {
@@ -561,6 +564,10 @@ h4 {
   background: url("/assets/images/amazons-choice.PNG")no-repeat center center/cover;
 }
 
+
+.sec-4, .sec-3{
+  margin: 10px 0;
+}
 .triangle{
   
 }
@@ -618,22 +625,36 @@ line-height: 20px;
   margin-left: -5px;
 }
 .underline-1{
-  border-bottom: rgb(177, 177, 177) 0.5px solid;
+  border-bottom: rgb(216, 215, 215) 0.4px solid;
+  margin: 5px 5px 0 0;
 }
 
 .buttons{
+  width:41%;
   display: flex;
+  justify-content: space-between;
 }
 .ps-5{
+  text-align: center;
   border: 1px solid red;
   background-color: #ffdcae36 ;
-  width: 118px;
+  width: 115px;
+  padding: 5px;
 }
 .ps-4{
+  text-align: center;
   border: 1px solid blue;
-  width: 118px;
+  padding: 5px;
+  width: 115px;
 }
-
+.bigger-button{
+  text-align: start;
+  padding: 10px;
+  line-height: 20px;
+}
+.dashed-border{
+ border: 1px gray dashed; 
+}
 /* card section - right side  */
 .right-section {
   display: flex;
