@@ -87,7 +87,7 @@ h4 {
 
 .amazon-logo-container:hover,
 .deliver-to-container:hover,
-.item-1:hover {
+.item-1:hover,.item-2:hover,.item-3:hover,.item-4:hover {
   border: 1px solid white;
   cursor: pointer;
 }
@@ -183,10 +183,13 @@ h4 {
 }
 
 .item {
+  border: 1px solid transparent;
+  
   /* display: flex; */
   /* justify-content: flex-start; */
   /* margin-right: auto; */
   /* padding:7px; */
+
 }
 
 .item-1 {
@@ -204,6 +207,7 @@ h4 {
   height: 100%;
   width:55%;
   padding: 7px;
+  margin: auto;
 }
 
 .item-2 .content h4{
@@ -249,6 +253,8 @@ display: flex;
   position: absolute;
   top:4px;
   right:40px;
+  color: #c7511f;
+
 }
 .content-4{
   /* display: flex; */
@@ -817,7 +823,7 @@ position: absolute;
   margin-bottom: 3px;
 }
 
-.share-icons h4:hover {
+.share-icons h4:hover ,.icon:hover{
   text-decoration: underline;
   color: #c7511f;
   cursor: pointer;
